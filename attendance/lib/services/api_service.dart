@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/user_model.dart';
 
 class ApiService {
-  static const String baseUrl = 'http://localhost:5000/api';
+  static const String baseUrl = 'https://college-attendance-app-opnc.onrender.com';
 
   static Future<User?> login(String email, String password) async {
     try {
